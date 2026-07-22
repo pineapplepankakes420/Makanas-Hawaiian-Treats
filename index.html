@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makana's Hawaiian Treats</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(180deg,#ff7b00,#ffb347,#ff5e62);
+        }
+
+        .card{
+            width:90%;
+            max-width:450px;
+            background:rgba(255,255,255,.18);
+            backdrop-filter:blur(12px);
+            border-radius:25px;
+            padding:40px 25px;
+            text-align:center;
+            color:white;
+            box-shadow:0 15px 35px rgba(0,0,0,.3);
+        }
+
+        h1{
+            font-size:42px;
+            margin-bottom:10px;
+        }
+
+        h2{
+            margin-top:10px;
+            margin-bottom:10px;
+            color:#fff6b3;
+        }
+
+        p{
+            margin-bottom:35px;
+        }
+
+        .button{
+            display:block;
+            width:100%;
+            margin:15px 0;
+            padding:18px;
+            border-radius:15px;
+            text-decoration:none;
+            font-size:24px;
+            font-weight:bold;
+            color:white;
+            transition:.3s;
+        }
+
+        .english{
+            background:#ff5722;
+        }
+
+        .spanish{
+            background:#009688;
+        }
+
+        .button:hover{
+            transform:scale(1.03);
+        }
+
+        .footer{
+            margin-top:35px;
+            font-size:16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div style="font-size:60px;">🌺</div>
+
+    <h1>Welcome!</h1>
+
+    <h2>Choose Your Language</h2>
+
+    <p>Seleccione su idioma</p>
+
+    <a class="button english" href="english.html">
+        🇺🇸 English
+    </a>
+
+    <a class="button spanish" href="spanish.html">
+        🇪🇸 Español
+    </a>
+
+    <div class="footer">
+        Mahalo for supporting a local business!
+    </div>
+
+</div>
+
+</body>
+  </html>
